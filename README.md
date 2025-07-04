@@ -2,7 +2,6 @@
 
 A Python-based project analyzing and comparing European option pricing using the **Black-Scholes model** and the **Binomial Tree method**.
 
----
 
 ##  Overview
 
@@ -13,7 +12,6 @@ This project implements and compares two fundamental models used in financial en
 
 Both models are explored from mathematical, computational, and empirical perspectives using real-world market data (AAPL options).
 
----
 
 ##  Objectives
 
@@ -28,7 +26,6 @@ Both models are explored from mathematical, computational, and empirical perspec
 - Validate pricing outputs using real market data from Yahoo Finance
 - Visualize model behavior and pricing deviations
 
----
 
 ## 🛠 Tech Stack
 
@@ -39,18 +36,16 @@ Both models are explored from mathematical, computational, and empirical perspec
   - `Matplotlib`
   - `yfinance`
 
----
 
 ##  Visualizations
 
 The notebook includes comprehensive plots:
 
-- ✅ Convergence of Binomial model to Black-Scholes
-- ✅ Execution time vs accuracy tradeoff
-- ✅ Sensitivity plots for σ, T, r, and K
-- ✅ Real vs predicted option prices (Market vs Models)
+-  Convergence of Binomial model to Black-Scholes
+-  Execution time vs accuracy tradeoff
+-  Sensitivity plots for σ, T, r, and K
+-  Real vs predicted option prices (Market vs Models)
 
----
 
 
 ##  Key Takeaways
@@ -60,14 +55,12 @@ The notebook includes comprehensive plots:
 - Real-world prices may diverge from theoretical ones due to implied volatility and market behavior
 - Trade-off exists between computational time and pricing accuracy
 
----
 
 ##  Data Source
 
 - Yahoo Finance via `yfinance`
 - Example stock used: AAPL (Apple Inc.)
 
----
 ##  Skills Demonstrated
 
 - Options Pricing Theory
@@ -76,7 +69,6 @@ The notebook includes comprehensive plots:
 - Data Analysis & Visualization
 - Python Programming
 
----
 
 ##  Reference
 
